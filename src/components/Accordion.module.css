@@ -1,0 +1,16 @@
+.accordion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 1.5rem;
+
+  margin: 4rem auto;
+
+  width: clamp(30rem, 70vw, 60rem);
+
+  background-color: #ececec;
+  padding: 3rem;
+  border-radius: 1rem;
+}
